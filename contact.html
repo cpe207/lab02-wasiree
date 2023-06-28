@@ -3,38 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
-    <style>
-      body {
-        background-image: url(https://i.pinimg.com/564x/6b/6a/73/6b6a739f79f9e7b9eafad8bdb3d8b531.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-      }
-    </style>
+  </head>
+  <style>
+    body {
+      background-color: black;
+    }
+    body {
+      color: #ffffff;
+    }
+  </style>
   <body>
-    <h1 style="color: green; text-align: center; front-style: italic">
-      My Portfolio
-    </h1>
-    <p style="text-align: center">
-      <a href="index.html">Home</a>&nbsp;|&nbsp;
-      <a href="experience.html">Experience</a>&nbsp;|&nbsp;
-      <a href="contact.html">Contact</a>&nbsp;|&nbsp;
-    </p>
-    <img
-      src="https://scontent.fbkk22-8.fna.fbcdn.net/v/t39.30808-6/280651890_3302690116684671_1124534007013332670_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFVpK720j6AlSoEX3ICVHZLlvMXegnlE-6W8xd6CeUT7tfvc3vkgqJ7LEEzeiWi_DzoTfq6ziLw8fugQ4tM-vAc&_nc_ohc=FmWa2mpzQxYAX-DEr7D&_nc_ht=scontent.fbkk22-8.fna&oh=00_AfD8H6S1OKDTzSx_pvXSbrRgIcIRoIQIrW-9nzd4-g8uqA&oe=649B934F"
-      class="circle"
-      width="200px"
-      style="margin-left: auto; margin-right: auto; display: block"
-    />
-    <h2 style="text-align: center; color: green">Vasiree Nuntajan</h2>
-    <h2 style="text-align: center; color: green">Contact</h2>
-    <p style="text-align: center">
-      E-mail 📩:
-      <a href="https://outlook.office.com/mail/"> vasiree_nan@cmu.ac.th </a>
-      <br />
-      Tel📞 : 0935618472
+    <div class="d-flex justify-content-center gap-5 fw-bold my-4">
+      <a href="index.html">Home</a>
+      <a href="experience.html">Experience</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="text-center fs-3">Contact Me</p>
+    <div
+      style="max-width: 700px"
+      class="mx-auto d-flex justify-content-center align-items-center gap-3 flex-wrap"
+    >
+      <div>
+        <img
+          src="images/S__15573004.jpg"
+          class="rounded-circle"
+          width="200"
+          height="200"
+          style="object-fit: cover"
+        />
+      </div>
+      <div class="vstack gap-2" style="max-width: 400px">
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">Name</div>
+          <span class="text-muted">Vasiree Nuntajan</span>
+        </div>
+
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">Nickname</div>
+          <span class="text-muted">BEAM</span>
+        </div>
+
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">Address</div>
+          <span class="text-muted">
+            222 , Tambon Samakki, Amphoe Namsom, Chang Wat Udonthani 41210
+          </span>
+        </div>
+
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">Facebook</div>
+          <span class="text-muted">
+            <a
+              href="https://www.facebook.com/beamwa.0402"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://web.facebook.com/beamwa.0402
+            </a>
+          </span>
+        </div>
+
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">Email 📩</div>
+          <span class="text-muted">
+            <a href="mailto: vasiree_nan@cmu.ac.th">vasiree_nan@cmu.ac.th</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-center text-muted m-4">
+      © 2022 vasiree-nuntajan.com by Vasiree Nuntajan
     </p>
   </body>
 </html>

@@ -1,25 +1,16 @@
-h3 {
-  text-align: center;
-  front-style: italic;
+.my-rounded-left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
-h1 {
-  text-shadow: 2.5px 2.5px rgb(255, 51, 190);
+.my-rounded-right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
-.skill-header {
-  text-align: left;
-}
-
-.skill-container {
-  border: solid lightcoral;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  margin-bottom: 10px;
-}
-
-.circle {
-  border-radius: 50%;
+.my-rounded-all {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
